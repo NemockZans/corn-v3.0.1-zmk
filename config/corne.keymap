@@ -54,7 +54,7 @@
 &kp TAB  &kp EXCL  &kp AT  &kp HASH       &kp DLLR          &kp PRCNT        &kp CARET  &kp AMPS   &kp ASTERISK  &kp LPAR    &kp RPAR  &trans
 &tog 3   &trans    &trans  &trans         &kp LEFT_BRACKET  &trans           &kp MINUS  &kp EQUAL  &kp RA(N8)    &kp RA(N9)  &kp BSLH  &kp GRAVE
 &trans   &trans    &trans  &kp LESS_THAN  &kp GREATER_THAN  &kp LS(LA(O))    &kp UNDER  &kp PLUS   &kp RA(N7)    &kp RA(N0)  &kp PIPE  &kp RIGHT_BRACKET
-                           &kp LGUI       &kp LEFT_ALT      &kp LSHIFT       &kp SPACE  &trans     &kp RALT
+                           &kp LGUI       &kp LA(ENTER)     &kp LSHIFT       &kp SPACE  &trans     &kp RALT
             >;
         };
 
