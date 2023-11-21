@@ -51,10 +51,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB  &kp EXCL  &kp AT  &kp HASH  &kp DLLR      &kp PRCNT     &kp CARET  &kp AMPS   &kp ASTERISK  &kp LPAR    &kp RPAR  &kp BSPC
-&tog 3   &trans    &trans  &trans    &trans        &trans        &kp MINUS  &kp EQUAL  &kp RA(N8)    &kp RA(N9)  &kp BSLH  &kp GRAVE
-&trans   &trans    &trans  &trans    &trans        &trans        &kp UNDER  &kp PLUS   &kp RA(N7)    &kp RA(N0)  &kp PIPE  &kp TILDE
-                           &kp LGUI  &kp LEFT_ALT  &kp LSHIFT    &kp SPACE  &trans     &kp RALT
+&kp TAB  &kp EXCL  &kp AT  &kp HASH  &kp DLLR          &kp PRCNT     &kp CARET  &kp AMPS   &kp ASTERISK  &kp LPAR    &kp RPAR  &kp BSPC
+&tog 3   &trans    &trans  &trans    &kp LEFT_BRACKET  &trans        &kp MINUS  &kp EQUAL  &kp RA(N8)    &kp RA(N9)  &kp BSLH  &kp GRAVE
+&trans   &trans    &trans  &trans    &trans            &trans        &kp UNDER  &kp PLUS   &kp RA(N7)    &kp RA(N0)  &kp PIPE  &kp RIGHT_BRACKET
+                           &kp LGUI  &kp LA(ENTER)     &kp LSHIFT    &kp SPACE  &trans     &kp RALT
             >;
         };
 
@@ -69,10 +69,10 @@
 
         layer_4 {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7            &kp F8           &kp F9           &kp F10  &kp F11   &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACKET  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &trans   &trans    &kp DEL
-&trans  &trans  &trans  &trans  &trans  &trans    &trans            &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans   &kp HOME  &kp END
-                        &trans  &trans  &trans    &kp SPACE         &trans           &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7           &kp F8           &kp F9           &kp F10  &kp F11   &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans    &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &trans   &trans    &kp DEL
+&trans  &trans  &trans  &trans  &trans  &trans    &trans           &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans   &kp HOME  &kp END
+                        &trans  &trans  &trans    &kp SPACE        &trans           &trans
             >;
         };
     };
